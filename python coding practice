@@ -1,0 +1,39 @@
+
+l=int(input("enter the number:"))
+b=int(input("enter another number:"))
+if l==b:
+    print("it's a square")
+else:
+    print("it's a rectangle")
+​
+enter the number:4
+enter another number:6
+it's a rectangle
+x=int(input("enter first value:"))
+y=int(input("\nenter second value:"))
+print("first is greater") if x>y else print("second is greater") if x<y else print("both are equal")
+enter first value:50
+
+enter second value:20
+first is greater
+x
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+apple
+banana
+cherry
+thislist
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
+['apple', 'banana', 'cherry', 'mango', 'pineapple', 'papaya']
+5
+new = [x for x in range(0,30) if x<5]
+print(new)
+[0, 1, 2, 3, 4]
+1
+thistuple = ("apple", "banana" , "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[-3:1])
+()
